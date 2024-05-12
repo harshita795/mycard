@@ -1,5 +1,5 @@
 import React from 'react';
-import './UserCard.css'; // Assuming you have a CSS file for styling
+import './UserCard.css';
 
 const UserCard = ({ user }) => {
   const { name, gender, phone, picture } = user;
